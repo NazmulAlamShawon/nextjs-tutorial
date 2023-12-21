@@ -1,6 +1,10 @@
+import Link from "next/link"
 const Home = () => {
   return (
-    <div>Home page</div>
+    <div>
+     
+  <Link href='/about'>about </Link> 
+    </div>
   )
 }
 export default Home
